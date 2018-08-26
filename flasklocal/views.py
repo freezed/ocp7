@@ -11,7 +11,7 @@ This file is part of [ocp7](http://github.com/freezed/ocp7/) project.
 """
 import pprint
 from flask import Flask, request, render_template
-from apicall import goo_geocode
+from apicall import goo_geocode, goo_static
 
 app = Flask(__name__)
 app.config.from_object('config')
@@ -36,6 +36,7 @@ def index():
         name=app.config['APP']['NAME'],
         url=app.config['APP']['SRC'],
         raw_response=api_response,
+        map_url=goo_static(),
     )
 
 

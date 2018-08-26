@@ -39,5 +39,23 @@ def goo_geocode(query="open classrooms", country='FR'):
     return api_json
 
 
+def goo_static(center="7 Cité Paradis, 75010 Paris, France", size=(600,300)):
+    """ return url of a static maps using Google Static Maps API """
+
+    payload = {
+        'key': GOO_API['KEY'],
+        'center': center,
+        'markers': center,
+        'size': "{0}x{1}".format(*size),
+    }
+
+    response = requests.get(
+        GOO_API['URL_MAP'],
+        payload,
+    )
+
+    return response.url
+
+
 if __name__ == "__main__":
-    goo_geocode()
+    goo_static()
