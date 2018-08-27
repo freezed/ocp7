@@ -30,10 +30,16 @@
     <h1>{{ name }}</h1>
     <p>A basic Flask application</p>
     <form method="post">
-        <input type="text" name="text" maxlength=25 \>
+        <select name="query">
+            <option value="">… choose _</option>
+            <option value="open classrooms">open classrooms</option>
+            <option value="basilique fourvière">basilique fourvière</option>
+            <option value="maison des têtes">maison des têtes</option>
+        </select>
         <input type="submit" name="submit" value="Send" \>
     </form>
-    <p>Posted data : {{ response }}</p>
+    <p><pre>{{ raw_response }}</pre></p>
+    <p><img src="{{ map_url }}"</p>
     <p>More info on <a href="{{ url }}">Github</a>.</p>
 </body>
 </html>

@@ -9,8 +9,6 @@ Licence: `GNU GPL v3` GNU GPL v3: http://www.gnu.org/licenses/
 This file is part of [ocp7](http://github.com/freezed/ocp7/) project.
 
 """
-
-from flask import Flask
 from flasklocal import app
 
 if __name__ == '__main__':
