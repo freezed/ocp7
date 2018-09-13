@@ -17,6 +17,7 @@ HOST = 'localhost'
 # HOST = '192.168.46.64'
 APP = {
     'NAME': 'GrandPy Bot, le papy-robot',
+    'BASELINE': 'GrandPy Bot, le papy-robot',
     'SRC': 'http://github.com/freezed/ocp7/',
     'DEBUG': True,
     'MAP_LINK': 'https://opentopomap.org/#map=17/{lat}/{lng}',
@@ -48,11 +49,4 @@ WIK_API = {
         'exsectionformat':'plain',
         'exintro':True,
     }
-}
-VIEW_DEFAULT_VARS = {
-    'map_img_src': 'https://via.placeholder.com/{}x{}?text=no+map'.format(
-        *GOO_API['MAP_SIZE']
-    ),
-    'name': APP['NAME'],
-    'url': APP['SRC'],
 }

@@ -13,7 +13,7 @@ import urllib.parse as up
 from pprint import pformat as pf
 from random import choice as rc
 import requests
-from config import APP, GOO_API, VIEW_DEFAULT_VARS, WIK_API
+from config import APP, GOO_API, WIK_API
 
 
 class Place:
@@ -322,7 +322,7 @@ class Message():
                 "Mais oui mon p'tit, tiens mon neurone vient de démarrer, voici l'adresse",
                 "Oh oui, je m'en souviens bien, et hop, l'adresse",
                 "Ouh, ça fait un bail! Mais si ma mémoire est bonne l'adresse est celle ci",
-             ],
+            ],
             'extract_yes': [
                 "D'ailleurs j'ai passé un boût de temps dans le coin, laisse moi t'en causer un peu",
                 "GrandMy (ma femme) adorait cet endroit, on y est allé souvent",
