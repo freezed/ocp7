@@ -9,18 +9,16 @@ Licence: `GNU GPL v3` GNU GPL v3: http://www.gnu.org/licenses/
 This file is part of [ocp7](http://github.com/freezed/ocp7/) project.
 
 """
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, jsonify
 from pprint import pformat as pf
 from .classes import Place, Query, Message
 
 app = Flask(__name__)
 app.config.from_object('config')
 
-
-@app.route('/', methods=['POST', 'GET'])
-def index():
-    """ Index View """
-
+@app.route('/ask', methods=['POST'])
+def ask():
+    """ Route to provide connection with JS frontend """
     # Default variables
     view_vars = app.config['VIEW_DEFAULT_VARS']
 
@@ -67,8 +65,15 @@ def index():
         for line in log:
             print(line)
 
-    # Return view with vars
-    return render_template("index.html", **view_vars)
+        print(view_vars)
+
+    return jsonify(view_vars)
+
+
+@app.route('/')
+def index():
+    """ Landing page """
+    return render_template("index.html")
 
 if __name__ == "__main__":
     app.run()
