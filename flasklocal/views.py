@@ -19,11 +19,8 @@ app.config.from_object('config')
 @app.route('/ask', methods=['POST'])
 def ask():
     """ Route to provide connection with JS frontend """
-    # Default variables
-    view_vars = app.config['VIEW_DEFAULT_VARS']
-
     # Catch posted data from form
-    if "submit" in request.form:
+    if "textinput" in request.form:
         # Parse text input
         query = Query(request.form['textinput'])
         query.parse()
@@ -40,12 +37,11 @@ def ask():
         log.append("query :[{}]".format(place.query))
 
         msg = Message(place)
-        view_vars['question'] = request.form['textinput']
+        view_vars = {'question': request.form['textinput']}
 
         # Get map URL for address
         if place.geo_data['status']:
             view_vars.update(msg.address_yes())
-            # log.append("coord :[{}]".format(place.geo_data['location']))
 
         else:
             # No geo_data : feeds with place.geo_data for loggin
@@ -64,8 +60,6 @@ def ask():
         # print server loggin
         for line in log:
             print(line)
-
-        print(view_vars)
 
     return jsonify(view_vars)
 
