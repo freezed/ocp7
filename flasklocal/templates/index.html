@@ -23,11 +23,11 @@
             <div id='chat'>
             </div>
             <!-- END JS PLACEHOLDER -->
-
             <form id='form'>
                 <label>Pose un question à GrandPy au sujet d'un lieu : </label>
-                <input type=text name="textinput" />
+                <input id="input" type=text name="textinput" onfocus="this.value='';"/>
                 <input type="submit" name="submit" value="Send" />
+                <progress id="progress" style="display:none;"></progress>
             </form>
 
         </main>
