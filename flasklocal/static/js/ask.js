@@ -17,10 +17,10 @@ function publish(json) {
             <p>${json.address}</p>
             <p>
                 ${json.extract}
-                Mais je fatigue : c'est l'heure de la sièste!
-                Va donc voir <a href='https://fr.wikipedia.org/w/index.php?curid=${json.curid}'>sur wikipedia</a>.
+                ${json.curid ? `                Mais je fatigue : c'est l'heure de la sièste!
+                Va donc voir <a href='https://fr.wikipedia.org/w/index.php?curid=${json.curid}'>sur wikipedia</a>.` :   ''}
             </p>
-            <p><a href="${json.map_link}"><img src="${json.map_img_src}"></a></p>
+            ${json.map_img_src ? `<p><a href="${json.map_link}"><img src="${json.map_img_src}"></a></p>` : ''}
             `;
     answerElt.innerHTML = markup;
     chatElt.appendChild(answerElt);
