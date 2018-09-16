@@ -1,17 +1,23 @@
 /* Votre Style */
 
-ul {
-  background: #bbb;
+body, header, footer, main {
+  background: #5BC0DE;
 }
-li, [class*="grid"] > * {
-  background: #ccc;
+img.logo {
+  width: 15%;
 }
-header, footer {
-  background: #ddd;
+h1.title, p.title {
+  width: 40%;
 }
-main {
-  background: #eee;
+form {
+  width: 90%;
+  background-color: #F0AD4E;
 }
-aside {
-  background: #aaa;
+p.question {
+  width: 90%;
+  background-color: #F0AD4E;
+}
+p.answer {
+  width: 90%;
+  background-color: #5CB85C;
 }

@@ -10,20 +10,22 @@
     </head>
     <body>
 
-    <header id="header" role="banner" class="pa0 pal">
-        <h1>{{ config.APP.NAME }}</h1>
-        <p>{{ config.APP.BASELINE }}</p>
+    <header id="header" role="banner" class="ma0 pas txtcenter">
+        <div class='logo fl'>
+            <img src="{{ url_for('static', filename='img/logo.png') }}" />
+        </div>
+        <h1 class="title center">{{ config.APP.NAME }}</h1>
+        <p class="title center">{{ config.APP.BASELINE }}</p>
     </header>
 
     <div class="flex-container">
-        <aside class="mod w20 pa0 ma0 aside"></aside>
         <main id="main" role="main" class="flex-item-fluid pam">
 
             <!-- BEGIN JS PLACEHOLDER -->
             <div id='chat'>
             </div>
             <!-- END JS PLACEHOLDER -->
-            <form id='form'>
+            <form id='form' class='left'>
                 <label>Pose un question à GrandPy au sujet d'un lieu : </label>
                 <input id="input" type=text name="textinput" onfocus="this.value='';"/>
                 <input type="submit" name="submit" value="Send" />
@@ -31,10 +33,9 @@
             </form>
 
         </main>
-        <aside class="mod w20 pa0 ma0 aside"></aside>
     </div>
 
-    <footer id="footer" role="contentinfo" class="pa0 pal">
+    <footer id="footer" role="contentinfo" class="ma0 pas txtcenter">
         <p>Plus d'info sur <a href="{{ config.APP.SRC }}">Github</a>.</p>
     </footer>
 
