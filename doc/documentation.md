@@ -3,9 +3,7 @@ Documentation
 
 ## _Note_
 
-_The latest updated version of this document is available at [github](https://github.com/freezed/ocp7/blob/master/documentation.md)._
-
-_This is the full project's documentation, for a faster presentation, see the [presentation summary](https://github.com/freezed/ocp7/blob/master/doc/presentation.md) or [README.md](https://github.com/freezed/ocp7/blob/master/README.md)._
+_Latest version of this doc on [github](https://github.com/freezed/ocp7/blob/master/documentation.md)._
 
 ---
 
@@ -13,13 +11,14 @@ _This is the full project's documentation, for a faster presentation, see the [p
 
 - `python 3.6.6`
 - `Flask 1.0.2`
-- ~`Requests`~
+- `Requests`
+- `pytest 3.7.3`
 
 ## Runs
 
 - on [Heroku][heroku]
-    - `heroku CLI v7.9.4 linux-x64 node-v10.9.0`
-- with `gunicorn 19.9.0`
+    - `heroku CLI v7.16.0 linux-x64 node-v10.10.0`
+    - with `gunicorn 19.9.0`
 
 ## Installation
 
@@ -32,7 +31,8 @@ _This is the full project's documentation, for a faster presentation, see the [p
     - `heroku config:set XXX_API_KEY='xx-xx-nn-api_key'`
 5. starts virtualenv  : `source .venv/bin/activate`
 6. adds dependencies : `cd ocp7; pip install -r requirements.txt`
-
-(…)
+7. run tests : `pytest tests/test_classes.py`
+8. run test coverage : `pytest --cov=flasklocal --cov-report html tests/test_*.py;`
+9. run developement server : `python run.py`
 
 [heroku]: https://heroku.com
