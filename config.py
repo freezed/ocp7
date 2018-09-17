@@ -12,8 +12,8 @@ This file is part of [ocp7](http://github.com/freezed/ocp7/) project.
 from os import environ
 
 PORT = 1664
-HOST = 'localhost'
-# HOST = '192.168.1.70'
+# HOST = 'localhost'
+HOST = '192.168.1.70'
 # HOST = '192.168.46.64'
 APP = {
     'NAME': 'GrandPy Bot',
@@ -49,4 +49,10 @@ WIK_API = {
         'exsectionformat':'plain',
         'exintro':True,
     }
+}
+HOME = {
+    'INPUT_PO': "Salut GrandPy connais tu l'adresse d'OpenClassrooms",
+    'INPUT_SIZE': 42,
+    'INPUT_LABEL': "Questionnes GrandPy au sujet d'un lieu",
+    '': "",
 }

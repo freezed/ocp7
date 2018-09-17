@@ -26,8 +26,8 @@
             </div>
             <!-- END JS PLACEHOLDER -->
             <form id='form' class='left'>
-                <label>Pose un question à GrandPy au sujet d'un lieu : </label>
-                <input id="input" type=text name="textinput" onfocus="this.value='';"/>
+                <label>{{ config.HOME.INPUT_LABEL}}  : </label>
+                <input id="input" type=text name="textinput" size={{ config.HOME.INPUT_SIZE }} placeholder="{{ config.HOME.INPUT_PO }}"onfocus="this.value='';"/>
                 <input type="submit" name="submit" value="Send" />
                 <progress id="progress" style="display:none;"></progress>
             </form>
@@ -36,7 +36,7 @@
     </div>
 
     <footer id="footer" role="contentinfo" class="ma0 pas txtcenter">
-        <p>Plus d'info sur <a href="{{ config.APP.SRC }}">Github</a>.</p>
+        <p>Retrouvez le code sur <a href="{{ config.APP.SRC }}">Github</a> | <em>Copyleft</em> 2018 - frédéric zind</p>
     </footer>
 
     <script src="{{ url_for('static', filename='js/ask.js') }}"></script>
