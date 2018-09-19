@@ -17,7 +17,7 @@ function publish(json) {
             <p class='answer right txtright'>${json.address}</p>
             <p class='answer right txtright'>
                 ${json.extract}
-                ${json.curid ? `                Mais je fatigue : c'est l'heure de la sièste!
+                ${json.curid ? `                Mais je fatigue : c'est l'heure de la sieste!
                 Va donc voir <a href='https://fr.wikipedia.org/w/index.php?curid=${json.curid}'>sur wikipedia</a>.` :   ''}
             </p>
             ${json.map_img_src ? `<p class='answer right txtcenter'><a href="${json.map_link}"><img src="${json.map_img_src}"></a></p>` : ''}

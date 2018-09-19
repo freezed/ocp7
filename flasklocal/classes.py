@@ -324,20 +324,20 @@ class Message():
                 "Ouh, ça fait un bail! Mais si ma mémoire est bonne l'adresse est celle ci",
             ],
             'extract_yes': [
-                "D'ailleurs j'ai passé un boût de temps dans le coin, laisse moi t'en causer un peu",
+                "D'ailleurs j'ai passé un bout de temps dans le coin, laisse moi t'en causer un peu",
                 "GrandMy (ma femme) adorait cet endroit, on y est allé souvent",
-                "Là aussi on à passé de bons moments… Attends un peu que je te raconte",
+                "Là aussi on a passé de bons moments… Attends un peu que je te raconte",
                 "J'y ai fais les 400 coups bien avant que tu mettes ta première couche-culotte",
             ],
             'address_no': [
-                "Ça me dit rien gamin, reformules pour voir…",
+                "Ça me dit rien gamin, reformule pour voir…",
                 "Moi je gâtouille pas encore, par contre toi c'est moins sûr… Repose ta question!",
                 "C'est pas très clair comme question, répète un peu…",
                 "Nan mais j'suis pas prix Nobel moi!!",
             ],
             'extract_no': [
-                "Euh, faut que je prenne mes pillules…",
-                "Je t'ai dis que c'était l'heure de la sièste…",
+                "Euh, faut que je prenne mes pilules…",
+                "Je t'ai dis que c'était l'heure de la sieste…",
                 "Nan, mais j'ai déjà raconté cette histoire 100 fois!",
                 "Et sinon, t'as pas des amis à qui causer?",
             ]

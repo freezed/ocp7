@@ -53,6 +53,6 @@ WIK_API = {
 HOME = {
     'INPUT_PO': "Salut GrandPy connais tu l'adresse d'OpenClassrooms",
     'INPUT_SIZE': 42,
-    'INPUT_LABEL': "Questionnes GrandPy au sujet d'un lieu",
+    'INPUT_LABEL': "Questionne GrandPy au sujet d'un lieu",
     '': "",
 }
