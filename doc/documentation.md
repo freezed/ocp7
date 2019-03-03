@@ -3,7 +3,7 @@ Documentation
 
 ## _Note_
 
-_Latest version of this doc on [github](https://github.com/freezed/ocp7/blob/master/documentation.md)._
+_Latest version of this doc on [gitlab](https://gitlab.com/free_zed/ocp7/blob/master/documentation.md)._
 
 ---
 
@@ -22,7 +22,7 @@ _Latest version of this doc on [github](https://github.com/freezed/ocp7/blob/mas
 
 ## Installation
 
-1. get the code : `git clone git@github.com:freezed/ocp7.git`
+1. get the code : `git clone git@gitlab.com:free_zed/ocp7.git`
 2. create a dedicated virtualenv : `python3 -m venv .venv`
 3. store private API keys in environement variables locally in your `.venv` :
     - add `unset XXX_API_KEY` at bottom of `deactivate()` func° in  `.venv/bin/activate`

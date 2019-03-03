@@ -18,7 +18,7 @@ HOST = '192.168.1.70'
 APP = {
     'NAME': 'GrandPy Bot',
     'BASELINE': 'Le paPy qui paPotte ',
-    'SRC': 'http://github.com/freezed/ocp7/',
+    'REPO_URL': 'http://gitlab.com/free_zed/ocp7/',
     'DEBUG': True,
     'MAP_LINK': 'https://opentopomap.org/#map=17/{lat}/{lng}',
 }

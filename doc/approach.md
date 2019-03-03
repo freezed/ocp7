@@ -2,7 +2,7 @@
 
 # [PyDev] Project 7
 
-_Last version of this document is available on [github][approach]._
+_Last version of this document is available on [gitlab][approach]._
 
 ## Approach
 
@@ -109,13 +109,13 @@ A good example is the server `loggin` job. The specifications do not mention it‚
                                                     ]
 
 [oc]: https://openclassrooms.com/fr/projects/creez-grandpy-bot-le-papy-robot "Cr√©ez GrandPy Bot, le papy-robot"
-[approach]: https://github.com/freezed/ocp7/blob/master/doc/approach.md
+[approach]: https://gitlab.com/free_zed/ocp7/blob/master/doc/approach.md
 [kanban]: https://github.com/freezed/ocp7/projects/1
 [flask]: https://www.palletsprojects.com/p/flask/ "Flask is a Python web development _framework_ based on the Werkzeug, Jinja, MarkupSafe and itsdangerous pallets libraries."
 [pytest]: https://pytest.org "Helps you write better programs"
 [gmaps]: https://cloud.google.com/maps-platform/?hl=fr "API Google Maps"
 [mediawiki]: https://www.mediawiki.org/wiki/API:Main_page/fr
-[issues]: https://github.com/freezed/ocp7/issues
+[issues]: https://gitlab.com/free_zed/ocp7/issues
 [05]: https://github.com/freezed/ocp7/issues/5
 [23]: https://github.com/freezed/ocp7/issues/23
 [26]: https://github.com/freezed/ocp7/issues/26
