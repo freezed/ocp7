@@ -3,7 +3,7 @@
 
 ## _Note_
 
-_La dernière version à jour de ce document est désormais disponible sur [gitlab](https://gitlab.com/free_zed/ocp7/blob/master/README.md)._
+_La dernière version à jour de ce document est désormais disponible sur [gitlab](https://gitlab.com/free_zed/grandpy/blob/master/README.md)._
 
 ---
 ## Créez GrandPy Bot, le papy-robot
@@ -62,10 +62,10 @@ GrandPy envoie un nouveau message :
 * Mis en en ligne avec [Heroku][heroku]
 
 
-[approach]: https://gitlab.com/free_zed/ocp7/blob/master/doc/approach.md
+[approach]: https://gitlab.com/free_zed/grandpy/blob/master/doc/approach.md
 [gmaps]: https://cloud.google.com/maps-platform/?hl=fr "API Google Maps"
 [heroku]: https://devcenter.heroku.com/articles/getting-started-with-python
 [kanban]: https://github.com/freezed/ocp7/projects/1
 [mediawiki]: https://www.mediawiki.org/wiki/API:Main_page/fr
 [oc]: https://openclassrooms.com/fr/projects/creez-grandpy-bot-le-papy-robot "Créez GrandPy Bot, le papy-robot"
-[readme]: https://gitlab.com/free_zed/ocp7/blob/master/README.md
+[readme]: https://gitlab.com/free_zed/grandpy/blob/master/README.md

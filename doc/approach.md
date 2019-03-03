@@ -109,23 +109,23 @@ A good example is the server `loggin` job. The specifications do not mention it‚
                                                     ]
 
 [oc]: https://openclassrooms.com/fr/projects/creez-grandpy-bot-le-papy-robot "Cr√©ez GrandPy Bot, le papy-robot"
-[approach]: https://gitlab.com/free_zed/ocp7/blob/master/doc/approach.md
+[approach]: https://gitlab.com/free_zed/grandpy/blob/master/doc/approach.md
 [kanban]: https://github.com/freezed/ocp7/projects/1
 [flask]: https://www.palletsprojects.com/p/flask/ "Flask is a Python web development _framework_ based on the Werkzeug, Jinja, MarkupSafe and itsdangerous pallets libraries."
 [pytest]: https://pytest.org "Helps you write better programs"
 [gmaps]: https://cloud.google.com/maps-platform/?hl=fr "API Google Maps"
 [mediawiki]: https://www.mediawiki.org/wiki/API:Main_page/fr
-[issues]: https://gitlab.com/free_zed/ocp7/issues
-[05]: https://github.com/freezed/ocp7/issues/5
-[23]: https://github.com/freezed/ocp7/issues/23
-[26]: https://github.com/freezed/ocp7/issues/26
-[36]: https://github.com/freezed/ocp7/issues/36
-[38]: https://github.com/freezed/ocp7/issues/38
-[39]: https://github.com/freezed/ocp7/issues/39
-[40]: https://github.com/freezed/ocp7/issues/40
-[41]: https://github.com/freezed/ocp7/issues/41
-[43]: https://github.com/freezed/ocp7/issues/43
-[44]: https://github.com/freezed/ocp7/issues/44
+[issues]: https://gitlab.com/free_zed/grandpy/issues
+[05]: https://gitlab.com/free_zed/grandpy/issues/5
+[23]: https://gitlab.com/free_zed/grandpy/issues/23
+[26]: https://gitlab.com/free_zed/grandpy/issues/26
+[36]: https://gitlab.com/free_zed/grandpy/issues/36
+[38]: https://gitlab.com/free_zed/grandpy/issues/38
+[39]: https://gitlab.com/free_zed/grandpy/issues/39
+[40]: https://gitlab.com/free_zed/grandpy/issues/40
+[41]: https://gitlab.com/free_zed/grandpy/issues/41
+[43]: https://gitlab.com/free_zed/grandpy/issues/43
+[44]: https://gitlab.com/free_zed/grandpy/issues/44
 [heroku]: https://devcenter.heroku.com/articles/getting-started-with-python
-[features]: https://github.com/freezed/ocp7/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Afunctionnality+
+[features]: https://gitlab.com/free_zed/grandpy/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Afunctionnality+
 [log]: http://flask.pocoo.org/docs/1.0/logging/#logging

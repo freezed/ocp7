@@ -3,7 +3,7 @@ Documentation
 
 ## _Note_
 
-_Latest version of this doc on [gitlab](https://gitlab.com/free_zed/ocp7/blob/master/documentation.md)._
+_Latest version of this doc on [gitlab](https://gitlab.com/free_zed/grandpy/blob/master/documentation.md)._
 
 ---
 
@@ -22,7 +22,7 @@ _Latest version of this doc on [gitlab](https://gitlab.com/free_zed/ocp7/blob/ma
 
 ## Installation
 
-1. get the code : `git clone git@gitlab.com:free_zed/ocp7.git`
+1. get the code : `git clone git@gitlab.com:free_zed/grandpy.git`
 2. create a dedicated virtualenv : `python3 -m venv .venv`
 3. store private API keys in environement variables locally in your `.venv` :
     - add `unset XXX_API_KEY` at bottom of `deactivate()` func° in  `.venv/bin/activate`
@@ -30,7 +30,7 @@ _Latest version of this doc on [gitlab](https://gitlab.com/free_zed/ocp7/blob/ma
 4. store your private API keys in environement variables locally in  heroku :
     - `heroku config:set XXX_API_KEY='xx-xx-nn-api_key'`
 5. starts virtualenv  : `source .venv/bin/activate`
-6. adds dependencies : `cd ocp7; pip install -r requirements.txt`
+6. adds dependencies : `cd grandpy; pip install -r requirements.txt`
 7. run tests : `pytest tests/test_classes.py`
 8. run test coverage : `pytest --cov=flasklocal --cov-report html tests/test_*.py;`
 9. run developement server : `python run.py`

@@ -2,12 +2,10 @@
 # -*- coding: utf-8 -*-
 
 """
-Author: freezed <freezed@users.noreply.github.com> 2018-08-23
-Version: 0.1
+Author: [freezed](https://gitlab.com/free_zed) 2018-08-23
 Licence: `GNU GPL v3` GNU GPL v3: http://www.gnu.org/licenses/
 
-This file is part of [ocp7](http://github.com/freezed/ocp7/) project.
-
+This file is part of project [grandpy](https://gitlab.com/free_zed/grandpy/).
 """
 from os import environ
 
@@ -18,7 +16,7 @@ HOST = '192.168.1.70'
 APP = {
     'NAME': 'GrandPy Bot',
     'BASELINE': 'Le paPy qui paPotte ',
-    'REPO_URL': 'http://gitlab.com/free_zed/ocp7/',
+    'REPO_URL': 'https://gitlab.com/free_zed/grandpy/',
     'DEBUG': True,
     'MAP_LINK': 'https://opentopomap.org/#map=17/{lat}/{lng}',
 }

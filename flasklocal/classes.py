@@ -2,13 +2,11 @@
 # -*- coding: utf-8 -*-
 
 """
-Author: freezed <freezed@users.noreply.github.com> 2018-08-25
-Version: 0.1
+Author: [freezed](https://gitlab.com/free_zed) 2018-08-25
 Licence: `GNU GPL v3` GNU GPL v3: http://www.gnu.org/licenses/
 
-This file is part of [ocp7](http://github.com/freezed/ocp7/) project.
-
- """
+This file is part of project [grandpy](https://gitlab.com/free_zed/grandpy/).
+"""
 import urllib.parse as up
 from pprint import pformat as pf
 from random import choice as rc
